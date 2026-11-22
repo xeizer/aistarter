@@ -41,6 +41,10 @@ Opsional, supaya `boost:update` otomatis jalan setiap `composer update`, tambahk
 
 `core.blade.php` dirender oleh Blade. Jangan menulis `{{ }}` atau directive `@...` secara langsung; bungkus contoh kode Blade dengan `@verbatim ... @endverbatim`.
 
+## Kredit
+
+Sebagian aturan keamanan terinspirasi dari [Spatie Secure Coding Guidelines](https://spatie.be/guidelines/secure-coding) dan [Spatie Laravel & PHP Guidelines](https://spatie.be/guidelines/laravel), ditulis ulang dan disesuaikan untuk workflow package ini.
+
 ## Lisensi
 
 MIT
