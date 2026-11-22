@@ -1,0 +1,20 @@
+{
+    "name": "xeizer/aistarter",
+    "description": "Reusable AI coding guidelines and skills for Laravel projects, delivered through Laravel Boost.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "boost", "ai", "guidelines", "livewire", "agents"],
+    "homepage": "https://github.com/xeizer/aistarter",
+    "authors": [
+        {
+            "name": "xeizer",
+            "homepage": "https://github.com/xeizer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "laravel/boost": "^2.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
