@@ -40,6 +40,7 @@ Even after general implementation approval:
 - Do not introduce Repository patterns, interfaces, traits, or extra layers unless justified in the plan and approved. Use Services/Actions only for complex or reused logic.
 - Use the infer-conventions skill only on request or for initial project analysis. Present findings before recording rules. Never overwrite user-defined rules.
 - If an inferred convention conflicts with this section, report the conflict and follow this section.
+- Create Laravel files (models, controllers, migrations, requests, policies, Livewire components, tests, etc.) with the matching php artisan make:* command (e.g. make:livewire for Livewire) and --no-interaction; do not hand-write them from scratch. List the exact make commands and options in the plan.
 - Call env() only inside config files; everywhere else read values through config(). Calls outside config files return null once configuration is cached.
 
 ## 6. Database

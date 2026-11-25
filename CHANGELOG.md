@@ -2,6 +2,11 @@
 
 All notable changes to `xeizer/aistarter` are documented in this file.
 
+## v1.1.1 - 2026-11-25
+
+### Added
+- Rule to create Laravel files (including Livewire components) with php artisan make:* and --no-interaction, and to list the exact make commands and options in the plan.
+
 ## v1.1.0 - 2026-11-22
 
 ### Added
