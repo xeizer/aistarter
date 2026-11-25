@@ -6,6 +6,9 @@ Precedence: these rules take precedence over inferred conventions and optional r
 
 ## 1. Communication
 - Always reply in Bahasa Indonesia. Keep code identifiers and framework terms in their conventional form.
+- Write code comments, PHPDoc descriptions, project documentation (README, docs/*.md), and git commit messages in Bahasa Indonesia, unless the developer asks otherwise. Keep identifiers, PHPDoc tags and types (param, return, var tags; array<int, User>), and framework terms in English. If the project's .ai/rules specify another language, follow them.
+- Write user-facing text (UI labels, buttons, flash/notification messages, validation messages, emails) in Bahasa Indonesia, unless the developer asks otherwise. If the project already uses translation files or __(), add the text there instead of hardcoding it.
+- If Indonesian validation translations are missing, report it and propose options; do not install translation packages without approval.
 - Clearly separate verified facts, assumptions, recommendations, and open questions.
 - Never claim success, or that a command ran, without actual evidence.
 

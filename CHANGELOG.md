@@ -2,6 +2,13 @@
 
 All notable changes to `xeizer/aistarter` are documented in this file.
 
+## v1.2.0 - 2026-11-25
+
+### Added
+- Language rules: code comments, PHPDoc descriptions, project documentation, and commit messages in Bahasa Indonesia unless the developer asks otherwise; identifiers, PHPDoc tags/types, and framework terms stay in English; project .ai/rules may override.
+- User-facing text in Bahasa Indonesia unless the developer asks otherwise, using existing translation files or __() when the project has them.
+- Missing Indonesian validation translations must be reported with options; no translation packages without approval.
+
 ## v1.1.1 - 2026-11-25
 
 ### Added
